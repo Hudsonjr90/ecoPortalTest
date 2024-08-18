@@ -1,5 +1,5 @@
 import { css } from "@emotion/react";
-import { primary } from "styles/colors";
+import { primary } from "../../styles/colors";
 
 export const styles = {
   navBar: css({

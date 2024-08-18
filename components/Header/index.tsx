@@ -2,7 +2,7 @@ import React from "react";
 import { useRouter } from "next/router";
 import { Paper, Typography } from "@mui/material";
 import Image from "next/image";
-import logoIcon from "../../../public/favicon.ico";
+import logoIcon from "/public/favicon.ico";
 import { styles } from "./Header.styles";
 
 export default function Header() {
