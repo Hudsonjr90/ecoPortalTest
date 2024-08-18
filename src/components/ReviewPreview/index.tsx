@@ -1,6 +1,6 @@
 import React from "react";
 import { Typography } from "@mui/material";
-import { TReview } from "@reduxjs/toolkit";
+import { TReview } from "../../redux/modules/reviews/types";
 import StarIcon from "@mui/icons-material/Star";
 import Image from "next/image";
 import editIcon from "../../../public/edit.svg";

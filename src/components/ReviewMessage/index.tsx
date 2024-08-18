@@ -8,11 +8,11 @@ import {
   Snackbar,
   Alert,
 } from "@mui/material";
-import { TReview } from "@reduxjs/toolkit";
-import ReviewPreview from "components/ReviewPreview";
+import { TReview } from "../../redux/modules/reviews/types";
+import ReviewPreview from "../../components/ReviewPreview";
 import { reviewActions, useAppDispatch } from "../../redux";
 import { styles } from "./ReviewMessage.styles";
-import ReviewEdit from "components/ReviewEdit";
+import ReviewEdit from "../../components/ReviewEdit";
 
 type ReviewMessageProps = {
   review: TReview;

@@ -1,5 +1,5 @@
-import { Nodes } from "redux/types"
-import { TReview } from ".."
+import { Nodes } from "../../types"
+import { TReview } from "../reviews/types"
 
 export type TMovie = {
   id: string

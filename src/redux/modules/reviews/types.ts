@@ -1,4 +1,4 @@
-import { TMovie } from ".."
+import { TMovie } from "../movies/types"
 
 export type TReview = {
   id: string

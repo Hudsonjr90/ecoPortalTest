@@ -1,11 +1,11 @@
 import React from "react";
 import { Card, Typography, CardContent } from "@mui/material";
-import { TMovie } from "@reduxjs/toolkit";
+import { TMovie } from "../../redux/modules/movies/types";
 import Link from "next/link";
 
 import StarIcon from "@mui/icons-material/Star";
 import { styles } from "./MovieCard.styles";
-import { convertRattingToAverage } from "utils/convertRattingToAverage";
+import { convertRattingToAverage } from "../../utils/convertRattingToAverage";
 
 type MovieCardProps = {
   movie: TMovie;

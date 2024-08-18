@@ -7,6 +7,7 @@ import {
   useAppSelector,
   ReviewState,
   TMovie,
+  TReview
 } from "../../redux";
 import ReviewMessage from "../../components/ReviewMessage";
 import MovieCard from "../../components/MovieCard";
@@ -36,7 +37,7 @@ export default function Review() {
         </Typography>
         {!!reviewState.reviews &&
           reviewState.reviews.movieById.movieReviewsByMovieId.nodes.map(
-            (review: { id: Key | null | undefined; }) => (
+            (review) => (
               <ReviewMessage
                 key={review.id}
                 review={review}
